@@ -1,4 +1,11 @@
+{% extends "registration/registration_base.html" %}
 
+{% block content %}
 
 <h1>Register</h1>
+{{user_form.as_p}}
+{{profile_form.as_p}}
 
+<!-- There are two forms so each requires its own submit button -->
+
+{% endblock %}
